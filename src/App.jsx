@@ -4,7 +4,7 @@ import NextPrayerCard from "./components/NextPrayerCard";
 import { getPrayerTimes, getNextPrayer } from "./utils/helpers";
 import { isInRange, PRAYER_META } from "./data/timings";
 import { MapPin } from "lucide-react";
-import PrayerGrid from "./components/prayerGrid";
+import PrayerGrid from "./components/PrayerGrid";
 
 export default function App() {
   const [date, setDate] = useState(new Date());
